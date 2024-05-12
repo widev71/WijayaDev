@@ -39,9 +39,15 @@ const Skills = ({ darkMode }) => {
               className="progress flex items-center h-[100%] justify-end md:justify-center"
             >
               <div className=" flex flex-col gap-6  w-3/4  my-5 md:w-[90%]">
-                <ProgressBar logo={<IoLogoHtml5 />} name={"HTML"} value={75} />
+                <ProgressBar 
+                logo={<IoLogoHtml5 />} 
+                name={"HTML"} 
+                value={65} />
 
-                <ProgressBar logo={<IoLogoCss3 />} name={"CSS"} value={66} />
+                <ProgressBar 
+                logo={<IoLogoCss3 />} 
+                name={"CSS"} 
+                value={56} />
 
                 <ProgressBar
                   logo={<SiAdobephotoshop />}
@@ -65,7 +71,7 @@ const Skills = ({ darkMode }) => {
                 <ProgressBar 
                 logo={<SiJavascript />} 
                 name={"JavaScrip"} 
-                value={15} />
+                value={13} />
               </div>
             </div>
           </div>
